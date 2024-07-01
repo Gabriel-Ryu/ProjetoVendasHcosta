@@ -1,0 +1,56 @@
+.body-container{
+    size: 100%;
+}
+
+.header-container-general{
+    margin: 5px;
+    padding-left: 1%;
+    background-color: orange;
+    width: 100%;
+    align-items:center;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: start;
+}
+.header-container2{
+    padding-left: 20%;
+}
+.header-container1{
+    border-width: 1px;
+    border-color: grey;
+    border-style: solid;
+}
+
+.title{
+    font-size: 200%;
+}
+.main-container{
+    margin: 2%;
+    padding: 2%;
+    border-width: 1px;
+    border-color: grey;
+    border-style: solid;
+    border-radius: 10px;
+}
+.main-container .input-text{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.button-back{
+    width: 100%;
+    height: 100%;
+}
+.button-insert{
+    border-width: 1px;
+    border-color: grey;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 1%;
+    text-decoration: none;
+    background-color: orange;
+    color: white;
+}
+.button-container{
+    margin: 2%;
+}

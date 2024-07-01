@@ -1,0 +1,56 @@
+.header-container .label-title{
+    font-size: 35px;
+}
+.main-container{
+    width: 25%;
+    height: 70%;
+}
+.footer-container{
+    width: 5%;
+    height: 5%;
+    border-width: 1px;
+    border-color: grey;
+    border-style: solid;
+    border-radius: 10px;
+}
+.main-container .label{
+    padding: 5px;
+    font-size: 15px;
+}
+.main-container .textbox{
+    padding: 5px;
+    width: 100%;
+    border-radius: 10px;
+    border-width: 1px;
+}
+.main-container .submit{
+    margin-top: 20px;
+    padding: 1%;
+    width: 100%;
+    border-radius: 10px;
+    border-width: 1px;
+    background-color: rgb(114, 231, 114);
+    cursor: pointer;
+}
+.main-container2 .forgot-password{
+    right: 37%;
+    top: 50%;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.main-container2{
+    margin-bottom: 1em;;
+}
+.img-container{
+    display: flex;
+    flex-direction: column;
+}
+.button-cancel{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(33, 119, 231);
+    border-width: 1px;
+    border-color: grey;
+    border-style: solid;
+    border-radius: 10px;
+}

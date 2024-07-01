@@ -1,0 +1,147 @@
+.body-container{
+    size: 100%;
+}
+.header-container-general{
+    margin: 5px;
+    background-color: orange;
+    width: 100%;
+    align-items:center;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.header-container1{
+    width:50%;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.header-container2{
+    width: 50%;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.header-container2 a{
+    text-decoration: none;
+    color: black;
+}
+
+.material-symbols-outlined {
+    cursor: pointer;
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+}
+.personal-image{
+    width:100%;
+    height: 100%;
+    border-radius: 100%;
+    border-color: rgb(62, 106, 201);
+    border: 1;
+    border-style: solid;
+    border-width: 2px;
+    cursor: pointer;
+}
+
+.container-personal-image{
+    width: 8%;
+    height: 8%;
+    padding-right: 2%;
+}
+
+.pedidos{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    right:50%
+}
+.option-modal{
+    display: none;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.4rem;
+    width: 30%;
+    padding: 1.3rem;
+    height: 100%;
+    position: fixed;
+    top: 1%;
+    background-color: rgb(167, 203, 238);
+    border: 1px solid #ddd;
+}
+.profile-modal{
+    left: 77%;
+    display: none;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.4rem;
+    width: 20%;
+    padding: 1.3rem;
+    height: 100%;
+    position: fixed;
+    top: 1%;
+    background-color: rgb(167, 203, 238);
+    border: 1px solid #ddd;
+}
+.header-profile-modal{
+    display: flex;
+    justify-content: center;
+}
+.options{
+    display: flex;
+    flex-direction: column;
+}
+.button-back{
+    border-width: 1px;
+    border-color: grey;
+    border-style: solid;
+    width: 8%;
+    left: 90%;
+    position:relative;
+    cursor:pointer;
+}
+.img-profile-container{
+    width: 35%;
+    height: 35%;
+}
+.img-profile{
+    width:100%;
+    height: 100%;
+    border-radius: 100%;
+    border-color: rgb(62, 106, 201);
+    border: 1;
+    border-style: solid;
+    border-width: 2px;
+    cursor: pointer;
+}
+.profile-button-close-container{
+    display: flex;
+    justify-content: flex-end;
+}
+.profile-button-close{
+    border-width: 1px;
+    border-color: grey;
+    border-style: solid;
+    cursor: pointer;
+}
+.exit-container{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 70%;
+}
+
+#onlyAdm-userlist{
+    width: 30%;
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
