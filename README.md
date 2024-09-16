@@ -13,7 +13,7 @@ Os produtos estão sendo consumidos via API externa, sendo sua rota definida na 
 
 Configuração:
 
-- docker run --rm -u "$(id -u):$(id -g)" -v "$(pwd):/var/www/html" -w /var/www/html laravelsail/php81-composer:latest composer install --ignore-platform-reqs para instalar as dependências do projeto.
+- docker run --rm -u "$(id -u):$(id -g)" -v "$(pwd):/var/www/html" -w /var/www/html laravelsail/php82-composer:latest composer install --ignore-platform-reqs para instalar as dependências do projeto.
 - Configurar o .env de forma adequada para rodar no ambiente desejado, com foco nos campos de aplicação (APP_), banco de dados (DB_) e de conexão com a API (API_).
 - vendor/bin/sail up -d para subir o container do projeto.
 - vendor/bin/sail artisan key:generate para gerar a chave de aplicação.
